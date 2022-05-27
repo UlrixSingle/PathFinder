@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 #include <vector>
 #include <tuple>
@@ -2659,7 +2659,7 @@ int main() {
                 std::cin >> code;
 
                 bool check = false;
-                for( int i = 0; i < ALGO_N && !check; i++) {
+                for( int i = 0; i < ST_DRAW_N && !check; i++) {
                     if( code == STATES[i].code)
                         check = true;
                 }
